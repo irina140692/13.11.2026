@@ -51,10 +51,24 @@ console.log(totalcost + " сом");
 
 console.log(" ... ")
 
-const age = 17;
+const Age = 17;
 
 console.log(age >= 18);
 console.log(age < 18);
 console.log(age === 17);
 console.log(age !== 20);
+
+console.log(" ... ")
+
+const score = 85;
+const attendance = 90;
+const isBlocked = false;
+
+console.log(score >= 60 && attendance >= 75);
+console.log(score >= 90 || attendance >= 90);
+console.log(!isBlocked);
+
+console.log(" ... ")
+
+
 
